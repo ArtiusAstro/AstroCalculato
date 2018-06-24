@@ -1,11 +1,8 @@
-package Astro.AstroCalculato;
-
 import java.util.Scanner;
 
 public class AstroCalculato {
 
 	public static void main(String[] args) {
-	
 		
 		int ultimateNumber = 5 * 5;
 		double firstNumber = 0;
@@ -15,7 +12,6 @@ public class AstroCalculato {
 		int memoryYesNo;
 		boolean memoryState = false;
 		boolean firstCalculation = true;
-		
 		
 		try(Scanner astroScanner = new Scanner(System.in)) {
 		
@@ -181,25 +177,3 @@ public class AstroCalculato {
 	}//end main
 
 }//end class
-
-
-
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
